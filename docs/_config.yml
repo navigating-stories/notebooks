@@ -37,7 +37,7 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
-#author:
+#footer:
 #  name   : "First Lastname"
 #  avatar : "/assets/images/bio-photo.jpg"
 #  bio    : "My awesome biography constrained to a sentence or two goes here."
@@ -55,11 +55,15 @@ plugins:
 #      icon: "fab fa-fw fa-instagram"
 #      url: "https://instagram.com/"
 
-footer:
-  links:
-    - label: "University of Twente Department of Psychology, Health and Technology"
+author: 
+  name: "Storylab"
+  subtitle: "Department of Psychology, Health and Technology
+            > University of Twente"
+  avatar: 
+  links :
+    - label: "Story Lab - University of Twente"
       icon: "fas fa-university"
-      url: "https://www.utwente.nl/en/bms/pht/"
+      url: "https://www.utwente.nl/en/bms/ehealth/research/story-lab/"
     - label: "ResearchGate"
       icon: "fab fa-researchgate
       url: "https://www.researchgate.net/lab/StoryLab-Gerben-J-Westerhof"
