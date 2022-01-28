@@ -1,37 +1,3 @@
-## Welcome to GitHub Pages
+## Welcome to Navigating Stories!
 
-You can use the [editor on GitHub](https://github.com/navigating-stories/notebooks/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/navigating-stories/notebooks/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+This project aims to develop eScience technologies to advance multidisciplinary approaches of digital storytelling. When societal transitions happen, people respond by telling stories that create continuity and change. In a digital age, storytelling has become even more abundant, rich in variety, and accelerating in pace. The current COVID-19 pandemic allows to study storytelling while transitions are happening. In a multidisciplinary team, we analyze how the varieties of stories evolve over time and across different media. eScience challenges include (1) integrating existing Natural Language Processing tools to extract and preprocess stories from existing and growing collections; (2) further developing Digital Story Grammar methodology to study narrative components in their mutual relations; (3) building a Story Navigator that uses visualization tools, while also allowing for human interpretation; and (4) integrating the tools into the Orange platform to allow re-use by students and researchers. We cooperate with national infrastructures, develop online tutorials, and organize a hands-on workshop to facilitate dissemination and long-term use. Interdisciplinary narrative studies will thus be enriched with necessary tools to analyze storytelling in a digital age as it unfolds in real time across different media and platforms. This can also support sustainable policy making in times of transition.
