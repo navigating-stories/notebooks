@@ -1,0 +1,14 @@
+main:
+  - title: "Background"
+    url: /background/
+  - title: "Research Questions"
+    url: /questions/
+  - title: "Collaborating Organizations"
+    url: /team/
+  - title: "Posts"
+    url: /posts/
+  - title: "Categories"
+    url: /categories/
+  - title: "Tags"
+    url: /tags/
+
