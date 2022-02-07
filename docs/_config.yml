@@ -8,7 +8,8 @@ search: true
 
 # Build settings
 markdown: kramdown
-remote_theme: "mmistakes/minimal-mistakes@4.24.0" 
+theme: jekyll-theme-slate
+# remote_theme: "mmistakes/minimal-mistakes@4.24.0" 
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 
@@ -104,5 +105,3 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
-
-theme: jekyll-theme-slate
