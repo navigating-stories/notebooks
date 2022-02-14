@@ -5,7 +5,7 @@ twitter_username: verhalenlab
 
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.24.0" 
-minimal_mistakes_skin: default # "dirt", "air", "aqua", "dark", "contrast", "sunrise", "neon", "mint" "plum"
+minimal_mistakes_skin: air # "dirt", "default", "aqua", "dark", "contrast", "sunrise", "neon", "mint" "plum"
 permalink: /:categories/:title/
 paginate: 5 
 paginate_path: /page:num/
@@ -32,16 +32,16 @@ author:
   location: "Enschede, the Netherlands"
   links :
     - label: "Story Lab - University of Twente"
-      icon: "fa-solid fa-building-columns"
+      icon: "fab fa-fw fa-building-collumns"
       url: "https://www.utwente.nl/en/bms/ehealth/research/story-lab/"
     - label: "ResearchGate"
-      icon: "fa-brands fa-researchgate"
+      icon: "fab fa-fw fa-researchgate"
       url: "https://www.researchgate.net/lab/StoryLab-Gerben-J-Westerhof"
     - label: "Twitter"
-      icon: "fa-brands fa-twitter"
+      icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/verhalenlab"
     - label: "GitHub"
-      icon: "fa-brands fa-github"
+      icon: "fab fa-fw fa-github"
       url: "https://github.com/navigating-stories/"
 
 defaults:
