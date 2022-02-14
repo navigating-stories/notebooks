@@ -11,22 +11,22 @@ In the fabric of everyday social life, a multitude of stories mutually depends o
 In a digital age, storytelling has become even more abundant, rich in variety, and accelerating in pace.[^9] Interestingly, the digital footprints of stories also allow new strategies for collecting naturally occurring or research-induced storytelling. These vary from collections of public broadcasting and web archives to research collections. Yet, actors, means, and purposes of the stories differ between these collections. The turn to human interest in journalism has brought everyday stories to the heart of mainstream media.[^10] The worldwide web provides means for storytelling to more official societal institutions, but also to action groups and individual citizens that are not always heard in mainstream media.[^11] Research collections document the varieties of stories that people tell about their lives, sometimes also with an emancipatory focus of giving people a voice.[^12] Whereas these collections are usually not representative of the general population, they all provide a different perspective on the dynamics of digital storytelling in contemporary society.
 
 [^1]: Bruner, J. (1990). Acts of meaning. Cambridge, MA: Harvard University Press
-[^2]: McAdams, D., & McLean, K. (2013). Narrative identity. Current Directions in Psychological Science, 22(3), 233-238.  
-  Polletta, F., Chen, P. C. B., Gardner, B. G., & Motes, A. (2011). The sociology of storytelling. Annual Review of Sociology, 37, 109–130.  
-  Sools, A. (2020). Back from the future: a narrative approach to study the imagination of personal futures. International Journal of Social Research Methodology, 23(4), 451-465.  
-  Westerhof, G. J., Alea, N., & Bluck, S. (2020). Narrative identity: The importance of our personal past in later life. In A. K. Thomas & A. Gutchess (Eds.), The Cambridge Handbook of Cognitive Aging: A Life Course Perspective (pp. 383-399).  
-[^3]: Westerhof, G. J., & Bohlmeijer, E. T. (2010). Psychologie van de levenskunst. Amsterdam: Boom.  
-[^4]: Schiff, B., McKim, E., & Patron, S. (2017). Life and narrative: The risks and responsibilities of storying experience. Cambridge, MA: Oxford University Press.  
-  Bohlmeijer, E., Mies, L., Westerhof, G. J. (2007). De betekenis van levensverhalen. Houten: BSL.  
-[^5]: Burke, K. (1969). A grammar of motives. California: University of California Press.  
-[^6]: Dator, J. (2009). Alternative futures at the Manoa School. Journal of Futures Studies, 14(2), 1-18.  
-  Frank, A. W. (1995). The wounded storyteller. Chicago: University of Chicago Press.  
-  McAdams, D. (2006). The redemptive self. New York: Oxford University Press.  
-  White, H. (2010). The fiction of narrative. Baltimore: Johns Hopkins University Press.  
-[^7]: Phoenix, A. (2008). Analyzing narrative contexts. In M. Andrews, C. Squire and M. Tamboukou (Eds.), Doing narrative research. London: Sage  
-[^8]: Bamberg, Michael, and Molly Andrews (Eds.) (2004). Considering counter narratives: Narrating, resisting, making sense. Amsterdam: John Benjamins.  
-  Ochs, E., & Capps, L. (2001). Living narrative: Creating lives in everyday storytelling. Cambridge, MA: Harvard University Press.
-[^9]: Westerhof, G. J. (2018). Verhaal – digital. Enschede: University of Twente.
-[^10]: Doherty, S. (2017). Journalism design: Interactive technologies and the future of storytelling. Routledge.
-[^11]: Hatavara, M., Hyvärinen, M,, Mäkelä, M, & Mäyrä, F. (Eds.) 2015. Narrative theory, literature, and new media: Narrative minds and virtual worlds. New York: Routledge.
-[^12]: Bourdieu, P. (Ed.). (1991). La misere du monde. Paris: Seuil.
+[^2]: McAdams, D., & McLean, K. (2013). Narrative identity. Current Directions in Psychological Science, 22(3), 233-238  
+Polletta, F., Chen, P. C. B., Gardner, B. G., & Motes, A. (2011). The sociology of storytelling. Annual Review of Sociology, 37, 109–130  
+Sools, A. (2020). Back from the future: a narrative approach to study the imagination of personal futures. International Journal of Social Research Methodology, 23(4), 451-465  
+Westerhof, G. J., Alea, N., & Bluck, S. (2020). Narrative identity: The importance of our personal past in later life. In A. K. Thomas & A. Gutchess (Eds.), The Cambridge Handbook of Cognitive Aging: A Life Course Perspective (pp. 383-399)
+[^3]: Westerhof, G. J., & Bohlmeijer, E. T. (2010). Psychologie van de levenskunst. Amsterdam: Boom
+[^4]: Schiff, B., McKim, E., & Patron, S. (2017). Life and narrative: The risks and responsibilities of storying experience. Cambridge, MA: Oxford University Press  
+Bohlmeijer, E., Mies, L., Westerhof, G. J. (2007). De betekenis van levensverhalen. Houten: BSL
+[^5]: Burke, K. (1969). A grammar of motives. California: University of California Press
+[^6]: Dator, J. (2009). Alternative futures at the Manoa School. Journal of Futures Studies, 14(2), 1-18  
+Frank, A. W. (1995). The wounded storyteller. Chicago: University of Chicago Press  
+McAdams, D. (2006). The redemptive self. New York: Oxford University Press  
+White, H. (2010). The fiction of narrative. Baltimore: Johns Hopkins University Press
+[^7]: Phoenix, A. (2008). Analyzing narrative contexts. In M. Andrews, C. Squire and M. Tamboukou (Eds.), Doing narrative research. London: Sage
+[^8]: Bamberg, Michael, and Molly Andrews (Eds.) (2004). Considering counter narratives: Narrating, resisting, making sense. Amsterdam: John Benjamins  
+Ochs, E., & Capps, L. (2001). Living narrative: Creating lives in everyday storytelling. Cambridge, MA: Harvard University Press.
+[^9]: Westerhof, G. J. (2018). Verhaal – digital. Enschede: University of Twente
+[^10]: Doherty, S. (2017). Journalism design: Interactive technologies and the future of storytelling. Routledge
+[^11]: Hatavara, M., Hyvärinen, M,, Mäkelä, M, & Mäyrä, F. (Eds.) 2015. Narrative theory, literature, and new media: Narrative minds and virtual worlds. New York: Routledge
+[^12]: Bourdieu, P. (Ed.). (1991). La misere du monde. Paris: Seuil
