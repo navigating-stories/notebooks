@@ -10,5 +10,9 @@ of the University of Twente and the Netherlands eScience Center. The notebooks d
   - German: ger\_nlp\_test.ipynb
 - Data collection:
   - Dutch: coronaindestad.ipynb
+  - German:
+    - stadtfrankfurt.ipynb
+    - zusammengegencorona.ipynb
+    - psychologieheute.ipynb
 
 All notebooks are written in Python. Some of them rely on external modules for processing natural language.
