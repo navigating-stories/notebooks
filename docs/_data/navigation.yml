@@ -1,8 +1,6 @@
 main:
-  - title: "Background"
-    url: /background/
-  - title: "Research Questions"
-    url: /questions/
+  - title: "Project"
+    url: /project/  
   - title: "Team"
     url: /team/
   - title: "Collaborating Organizations"

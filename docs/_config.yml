@@ -1,28 +1,32 @@
 title: Navigating Stories
 email: k.pijpers@utwente.nl
 description: This project aims to develop eScience technologies to advance multidisciplinary approaches of digital storytelling.
-twitter_username: verhalenlab
+baseurl: ""
+url: "https://navigating-stories.github.io/notebooks/"
+repository: "navigating-stories/notebooks"
 
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.24.0" 
-minimal_mistakes_skin: air # "dirt", "default", "aqua", "dark", "contrast", "sunrise", "neon", "mint" "plum"
+minimal_mistakes_skin: "dirt" # "default", "air", "aqua", "dark", "contrast", "sunrise", "neon", "mint" "plum"
 permalink: /:categories/:title/
-paginate: 5 
-paginate_path: /page:num/
+#paginate: 5 
+#paginate_path: /page:num/
 show_excerpts: true
 search: true
+timezone: Europe/Amsterdam
 
 include:
   - _pages
 
 plugins:
-  - jekyll-paginate
+#  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
   - jekyll-target-blank
+  - jekyll-algolia
 
 author: 
   name: "Storylab"
@@ -32,7 +36,7 @@ author:
   location: "Enschede, the Netherlands"
   links :
     - label: "Story Lab - University of Twente"
-      icon: "fab fa-fw fa-building-collumns"
+      icon: "fas fa-fw fa-link"
       url: "https://www.utwente.nl/en/bms/ehealth/research/story-lab/"
     - label: "ResearchGate"
       icon: "fab fa-fw fa-researchgate"
@@ -58,9 +62,11 @@ defaults:
       related: true
   # _pages
   - scope:
-      path: "_pages"
+      path: ""
       type: pages
     values:
+      read_time: true
+      share: true
       layout: single
       author_profile: true
 
@@ -75,6 +81,8 @@ tag_archive:
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
 # exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
 #   - Gemfile
 #   - Gemfile.lock
 #   - node_modules
