@@ -1,9 +1,9 @@
 title: Navigating Stories
 email: k.pijpers@utwente.nl
 description: This project aims to develop eScience technologies to advance multidisciplinary approaches of digital storytelling.
-baseurl: ""
-url: "https://navigating-stories.github.io/notebooks/"
-repository: "navigating-stories/notebooks"
+#baseurl: ""
+#url: "https://navigating-stories.github.io/notebooks/"
+#repository: "navigating-stories/notebooks"
 
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.24.0" 
