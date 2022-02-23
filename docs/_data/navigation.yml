@@ -1,12 +1,13 @@
 main:
+  - title: "News"
+    url: /posts/
   - title: "Project"
     url: /project/  
   - title: "Team"
     url: /team/
   - title: "Collaborating Organizations"
     url: /collab/
-  - title: "Posts"
-    url: /posts/
+
   #- title: "Categories"
   #  url: /categories/
   #- title: "Tags"
