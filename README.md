@@ -1,6 +1,6 @@
 # Notebooks of the project Navigating Stories
 
-This repository contains the notebooks of the project [Navigating Stories](https://www.research-software.nl/projects/navigating-stories)
+This repository contains the notebooks of the project [Navigating Stories](https://navigating-stories.github.io/)
 of the University of Twente and the Netherlands eScience Center. The notebooks deal with these topics:
 
 - Language processing tests:
