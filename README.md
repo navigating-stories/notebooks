@@ -10,6 +10,7 @@ of the University of Twente and the Netherlands eScience Center. The notebooks d
   - German: ger\_nlp\_test.ipynb
 - Data collection:
   - Dutch: coronaindestad.ipynb
+  - English: storycenter.ipynb
   - German:
     - stadtfrankfurt.ipynb
     - zusammengegencorona.ipynb
