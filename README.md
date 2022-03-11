@@ -12,6 +12,7 @@ of the University of Twente and the Netherlands eScience Center. The notebooks d
   - Dutch: coronaindestad.ipynb
   - English: storycenter.ipynb
   - German:
+    - bonn.ipynb
     - hspvnrw.ipynb
     - psychologieheute.ipynb
     - stadtfrankfurt.ipynb
