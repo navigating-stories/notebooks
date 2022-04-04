@@ -8,6 +8,7 @@ of the University of Twente and the Netherlands eScience Center. The notebooks d
   - Dutch: stroll\_srl\_test.ipynb, stroll\_twitter.ipynb and liwc.ipynb
   - English: allennlp-tests.ipynb
   - German: ger\_nlp\_test.ipynb
+  - Multilingual: multilingual_dsg.ipynb
 - Data collection:
   - Dutch: coronaindestad.ipynb
   - English: storycenter.ipynb

@@ -14,7 +14,7 @@
             "LEFT_ID": "verb",
             "REL_OP": ">",
             "RIGHT_ID": "obj",
-            "RIGHT_ATTRS": {"DEP": "dobj"}
+            "RIGHT_ATTRS": {"DEP": "obj", "POS": {"IN": ["PNOUN", "NOUN"]}}
         }
     ],
     [
@@ -26,7 +26,7 @@
             "LEFT_ID": "verb",
             "REL_OP": ">>",
             "RIGHT_ID": "subj",
-            "RIGHT_ATTRS": {"DEP": "pobj"}
+            "RIGHT_ATTRS": {"DEP": "obj", "POS": {"IN": ["PNOUN", "NOUN"]}}
         },
         {
             "LEFT_ID": "verb",
@@ -49,14 +49,8 @@
         {
             "LEFT_ID": "verb",
             "REL_OP": ">>",
-            "RIGHT_ID": "comp",
-            "RIGHT_ATTRS": {"DEP": {"IN": ["ccomp", "xcomp", "pcomp", "advcl"]}}
-        },
-        {
-            "LEFT_ID": "comp",
-            "REL_OP": ">",
             "RIGHT_ID": "obj",
-            "RIGHT_ATTRS": {"DEP": "dobj"}
+            "RIGHT_ATTRS": {"DEP": "obj", "POS": {"IN": ["PNOUN", "NOUN"]}}
         }
     ],
     [
@@ -69,21 +63,39 @@
             "REL_OP": ">",
             "RIGHT_ID": "subj",
             "RIGHT_ATTRS": {"DEP": "nsubj"}
-        },
-        {
-            "LEFT_ID": "verb",
-            "REL_OP": ">>",
-            "RIGHT_ID": "obj",
-            "RIGHT_ATTRS": {"DEP": "pobj"}
         }
     ],
     [
         {
-            "RIGHT_ID": "verb",
-            "RIGHT_ATTRS": {"POS": {"IN": ["VERB", "AUX"]}}
+            "RIGHT_ID": "obj",
+            "RIGHT_ATTRS": {"DEP": "ROOT", "POS": {"IN": ["PNOUN", "NOUN"]}}
         },
         {
-            "LEFT_ID": "verb",
+            "LEFT_ID": "obj",
+            "REL_OP": ">",
+            "RIGHT_ID": "subj",
+            "RIGHT_ATTRS": {"DEP": "nsubj"}
+        },
+        {
+            "LEFT_ID": "obj",
+            "REL_OP": ">>",
+            "RIGHT_ID": "verb",
+            "RIGHT_ATTRS": {"POS": {"IN": ["VERB", "AUX"]}, "DEP": "cop"}
+        }
+    ],
+    [
+        {
+            "RIGHT_ID": "root",
+            "RIGHT_ATTRS": {"DEP": "ROOT"}
+        },
+        {
+            "LEFT_ID": "root",
+            "REL_OP": ">",
+            "RIGHT_ID": "verb",
+            "RIGHT_ATTRS": {"POS": {"IN": ["VERB", "AUX"]}, "DEP": "cop"}
+        },
+        {
+            "LEFT_ID": "root",
             "REL_OP": ">",
             "RIGHT_ID": "subj",
             "RIGHT_ATTRS": {"DEP": "nsubj"}

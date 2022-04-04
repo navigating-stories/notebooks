@@ -88,5 +88,23 @@
             "RIGHT_ID": "subj",
             "RIGHT_ATTRS": {"DEP": "nsubj"}
         }
+    ],
+    [
+        {
+            "RIGHT_ID": "obj",
+            "RIGHT_ATTRS": {"DEP": "ROOT", "POS": {"IN": ["PNOUN", "NOUN"]}}
+        },
+        {
+            "LEFT_ID": "obj",
+            "REL_OP": ">",
+            "RIGHT_ID": "subj",
+            "RIGHT_ATTRS": {"DEP": "nsubj"}
+        },
+        {
+            "LEFT_ID": "obj",
+            "REL_OP": ">>",
+            "RIGHT_ID": "verb",
+            "RIGHT_ATTRS": {"POS": {"IN": ["VERB", "AUX"]}, "DEP": "cop"}
+        }
     ]
 ]
