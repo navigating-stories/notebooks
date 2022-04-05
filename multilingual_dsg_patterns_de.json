@@ -1,0 +1,62 @@
+[
+    [
+        {
+            "RIGHT_ID": "verb",
+            "RIGHT_ATTRS": {"POS": {"IN": ["VERB", "AUX"]}}
+        },
+        {
+            "LEFT_ID": "verb",
+            "REL_OP": ">",
+            "RIGHT_ID": "subj",
+            "RIGHT_ATTRS": {"DEP": "sb"}
+        },
+        {
+            "LEFT_ID": "verb",
+            "REL_OP": ">>",
+            "RIGHT_ID": "obj",
+            "RIGHT_ATTRS": {"DEP": {"IN": ["pd", "oa", "da", "og", "op"]}}
+        }
+    ],
+    [
+        {
+            "RIGHT_ID": "verb",
+            "RIGHT_ATTRS": {"POS": {"IN": ["VERB", "AUX"]}}
+        },
+        {
+            "LEFT_ID": "verb",
+            "REL_OP": ">",
+            "RIGHT_ID": "subj",
+            "RIGHT_ATTRS": {"DEP": "sb"}
+        }
+    ],
+    [
+        {
+            "RIGHT_ID": "verb",
+            "RIGHT_ATTRS": {"POS": {"IN": ["VERB", "AUX"]}}
+        },
+        {
+            "LEFT_ID": "verb",
+            "REL_OP": ">",
+            "RIGHT_ID": "subj",
+            "RIGHT_ATTRS": {"DEP": "sb"}
+        },
+        {
+            "LEFT_ID": "verb",
+            "REL_OP": ">>",
+            "RIGHT_ID": "obj_tmp",
+            "RIGHT_ATTRS": {"DEP": {"IN": ["pd", "oa", "da", "og", "op"]}}
+        },
+        {
+            "LEFT_ID": "obj_tmp",
+            "REL_OP": ">>",
+            "RIGHT_ID": "mnr",
+            "RIGHT_ATTRS": {"DEP": "mnr"}
+        },
+        {
+            "LEFT_ID": "mnr",
+            "REL_OP": ">>",
+            "RIGHT_ID": "obj",
+            "RIGHT_ATTRS": {"POS": {"IN": ["PNOUN", "NOUN"]}}
+        }
+    ]
+]
