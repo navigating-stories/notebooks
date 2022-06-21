@@ -64,6 +64,12 @@
             "RIGHT_ID": "verb",
             "RIGHT_ATTRS": {"POS": {"IN": ["VERB", "AUX"]}}
         },
+	{
+            "LEFT_ID": "verb",
+            "REL_OP": ">",
+            "RIGHT_ID": "aux",
+            "RIGHT_ATTRS": {"POS": "AUX" }
+        },
         {
             "LEFT_ID": "verb",
             "REL_OP": ">",
@@ -102,9 +108,10 @@
         },
         {
             "LEFT_ID": "verb",
-            "REL_OP": ">>",
-            "RIGHT_ID": "obj",
-            "RIGHT_ATTRS": {"DEP": "pobj"}
+            "REL_OP": ">",
+            "RIGHT_ID": "aux",
+            "RIGHT_ATTRS": {"POS": "AUX" },
+            "OP": "?"
         }
     ],
     [
