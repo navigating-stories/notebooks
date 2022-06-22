@@ -15,6 +15,30 @@
             "REL_OP": ">",
             "RIGHT_ID": "obj",
             "RIGHT_ATTRS": {"DEP": "dobj"}
+        },
+        {
+            "LEFT_ID": "subj",
+            "REL_OP": ">",
+            "RIGHT_ID": "subjadj",
+            "RIGHT_ATTRS": {"DEP": "amod"}
+        }
+    ],
+    [
+        {
+            "RIGHT_ID": "verb",
+            "RIGHT_ATTRS": {"POS": {"IN": ["VERB", "AUX"]}}
+        },
+        {
+            "LEFT_ID": "verb",
+            "REL_OP": ">",
+            "RIGHT_ID": "subj",
+            "RIGHT_ATTRS": {"DEP": "nsubj"}
+        },
+        {
+            "LEFT_ID": "verb",
+            "REL_OP": ">",
+            "RIGHT_ID": "obj",
+            "RIGHT_ATTRS": {"DEP": "dobj"}
         }
     ],
     [
@@ -112,6 +136,24 @@
             "RIGHT_ID": "aux",
             "RIGHT_ATTRS": {"POS": "AUX" },
             "OP": "?"
+        }
+    ],
+    [
+        {
+            "RIGHT_ID": "verb",
+            "RIGHT_ATTRS": {"POS": {"IN": ["VERB", "AUX"]}}
+        },
+        {
+            "LEFT_ID": "verb",
+            "REL_OP": ">",
+            "RIGHT_ID": "subj",
+            "RIGHT_ATTRS": {"DEP": "nsubj"}
+        },
+        {
+            "LEFT_ID": "subj",
+            "REL_OP": ">",
+            "RIGHT_ID": "subjadj",
+            "RIGHT_ATTRS": {"DEP": "amod"}
         }
     ],
     [
