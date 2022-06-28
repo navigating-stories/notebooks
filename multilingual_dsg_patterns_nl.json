@@ -6,27 +6,9 @@
         },
         {
             "LEFT_ID": "verb",
-            "REL_OP": ">",
-            "RIGHT_ID": "subj",
-            "RIGHT_ATTRS": {"DEP": "nsubj"}
-        },
-        {
-            "LEFT_ID": "verb",
             "REL_OP": ">>",
-            "RIGHT_ID": "obj",
+            "RIGHT_ID": "subj",
             "RIGHT_ATTRS": {"DEP": "obj"}
-        }
-    ],
-    [
-        {
-            "RIGHT_ID": "verb",
-            "RIGHT_ATTRS": {"POS": {"IN": ["VERB", "AUX"]}}
-        },
-        {
-            "LEFT_ID": "verb",
-            "REL_OP": ">>",
-            "RIGHT_ID": "subj",
-            "RIGHT_ATTRS": {"DEP": "obl"}
         },
         {
             "LEFT_ID": "verb",
@@ -55,8 +37,32 @@
         {
             "LEFT_ID": "comp",
             "REL_OP": ">",
+            "RIGHT_ID": "prep",
+            "RIGHT_ATTRS": {"DEP": {"IN": ["mark"]}}
+         },
+         {
+            "LEFT_ID": "comp",
+            "REL_OP": ">",
             "RIGHT_ID": "obj",
-            "RIGHT_ATTRS": {"DEP": "obl"}
+            "RIGHT_ATTRS": {"DEP": "obj"}
+        }
+    ],
+    [
+        {
+            "RIGHT_ID": "verb",
+            "RIGHT_ATTRS": {"POS": {"IN": ["VERB", "AUX"]}}
+        },
+        {
+            "LEFT_ID": "verb",
+            "REL_OP": ">",
+            "RIGHT_ID": "subj",
+            "RIGHT_ATTRS": {"DEP": "nsubj"}
+        },
+        {
+            "LEFT_ID": "verb",
+            "REL_OP": ">",
+            "RIGHT_ID": "obj",
+            "RIGHT_ATTRS": {"DEP": "obj"}
         }
     ],
     [
@@ -74,7 +80,7 @@
             "LEFT_ID": "verb",
             "REL_OP": ">>",
             "RIGHT_ID": "obj",
-            "RIGHT_ATTRS": {"DEP": "obl"}
+            "RIGHT_ATTRS": {"DEP": "obj"}
         }
     ],
     [
