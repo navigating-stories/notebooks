@@ -111,6 +111,12 @@
             "REL_OP": ">>",
             "RIGHT_ID": "verb",
             "RIGHT_ATTRS": {"POS": {"IN": ["VERB", "AUX"]}, "DEP": "cop"}
+        },
+	{
+            "LEFT_ID": "obj",
+            "REL_OP": ">",
+            "RIGHT_ID": "objadj",
+            "RIGHT_ATTRS": {"DEP": "amod", "POS": "ADJ" }
         }
     ]
 ]
