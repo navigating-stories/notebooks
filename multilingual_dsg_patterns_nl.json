@@ -46,7 +46,13 @@
             "RIGHT_ID": "obj",
             "RIGHT_ATTRS": {"DEP": "obj"}
         },
-	{
+        {
+            "LEFT_ID": "obj",
+            "REL_OP": ">",
+            "RIGHT_ID": "objfixed",
+            "RIGHT_ATTRS": {"DEP": "fixed"}
+        },
+        {
             "LEFT_ID": "comp",
             "REL_OP": ">",
             "RIGHT_ID": "obl",
@@ -57,6 +63,12 @@
             "REL_OP": ">",
             "RIGHT_ID": "case",
             "RIGHT_ATTRS": {"DEP": "case"}
+        },
+	{
+            "LEFT_ID": "obl",
+            "REL_OP": ">",
+            "RIGHT_ID": "case_arg",
+            "RIGHT_ATTRS": { "DEP": {"NOT_IN": ["case"] } }
         }
     ],
     [
@@ -105,6 +117,42 @@
             "REL_OP": ">",
             "RIGHT_ID": "obj",
             "RIGHT_ATTRS": {"DEP": "obj"}
+        },
+        {
+            "LEFT_ID": "verb",
+            "REL_OP": ">",
+            "RIGHT_ID": "obl",
+            "RIGHT_ATTRS": {"DEP": "obl"}
+        },
+        {
+            "LEFT_ID": "obl",
+            "REL_OP": ">",
+            "RIGHT_ID": "case",
+            "RIGHT_ATTRS": {"DEP": "case"}
+        },
+        {
+            "LEFT_ID": "obl",
+            "REL_OP": ">",
+            "RIGHT_ID": "case_arg",
+            "RIGHT_ATTRS": {"DEP": "amod"}
+        }
+    ],
+    [
+        {
+            "RIGHT_ID": "verb",
+            "RIGHT_ATTRS": {"POS": {"IN": ["VERB", "AUX"]}}
+        },
+        {
+            "LEFT_ID": "verb",
+            "REL_OP": ">",
+            "RIGHT_ID": "subj",
+            "RIGHT_ATTRS": {"DEP": "nsubj"}
+        },
+        {
+            "LEFT_ID": "verb",
+            "REL_OP": ">",
+            "RIGHT_ID": "obj",
+            "RIGHT_ATTRS": {"DEP": "obj"}
         }
     ],
     [
@@ -124,6 +172,30 @@
             "RIGHT_ID": "obj",
             "RIGHT_ATTRS": {"DEP": "obj"}
         }
+    ],
+    [
+        {
+            "RIGHT_ID": "verb",
+            "RIGHT_ATTRS": {"POS": {"IN": ["VERB", "AUX"]}}
+        },
+        {
+            "LEFT_ID": "verb",
+            "REL_OP": ">",
+            "RIGHT_ID": "subj",
+            "RIGHT_ATTRS": {"DEP": "nsubj"}
+        },
+        {
+            "LEFT_ID": "verb",
+            "REL_OP": ">>",
+            "RIGHT_ID": "comp",
+            "RIGHT_ATTRS": {"DEP": {"IN": ["ccomp", "xcomp", "pcomp", "advcl"]}}
+        },
+        {
+            "LEFT_ID": "comp",
+            "REL_OP": ">",
+            "RIGHT_ID": "prep",
+            "RIGHT_ATTRS": {"DEP": {"IN": ["mark"]}}
+         }
     ],
     [
         {
